@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #007AF3;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  padding: 1em;
+}
+nav a {
+  color: black;
+}
+nav .logo {
+  font-weight: bold;
+}
+nav .logo span {
+  color: var(--primary-color);
+}
+nav .current {
+  font-weight: bold;
+}
+nav .left-nav,
+nav .right-nav {
+  display: None;
+}
+nav .container {
+  display: flex;
+  place-content: space-between;
+}
+nav .mobile-menu-cta {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
